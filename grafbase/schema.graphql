@@ -1,0 +1,6 @@
+type Photo @model {
+	# TODO: Make this required
+	url: URL
+	latitude: Float!
+	longitude: Float!
+}
